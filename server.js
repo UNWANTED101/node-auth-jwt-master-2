@@ -7,7 +7,7 @@ const app = express();
 
 var corsOptions = {
   //origin: "https://article-irfan.herokuapp.com"
-  origin:"http://arrogant-ornament.surge.sh"
+  origin:"lean-slope.surge.sh"
 };
 
 
@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Hello World." });
+  res.json({ message: "Hello Nikka." });
 });
 
 
