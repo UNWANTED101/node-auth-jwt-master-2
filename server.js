@@ -7,7 +7,7 @@ const app = express();
 
 var corsOptions = {
   //origin: "https://article-irfan.herokuapp.com"
-  origin:"spotty-nail.surge.sh"
+  origin:"http://spotty-nail.surge.sh"
 };
 
 
